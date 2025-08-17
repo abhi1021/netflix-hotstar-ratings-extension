@@ -1,0 +1,59 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#121212"/>
+      <stop offset="100%" stop-color="#1f1f2e"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fa320a"/>
+      <stop offset="100%" stop-color="#c32305"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5c518"/>
+      <stop offset="100%" stop-color="#c9a413"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="120" height="120" rx="24" fill="url(#bg)" stroke="#333" stroke-width="2"/>
+
+  <!-- Clapperboard top -->
+  <g transform="translate(16,24)">
+    <rect x="0" y="0" width="96" height="22" rx="4" fill="#2e2e2e" stroke="#444"/>
+    <!-- Stripes -->
+    <g fill="#777">
+      <rect x="6" y="5" width="12" height="12" rx="2"/>
+      <rect x="24" y="5" width="12" height="12" rx="2"/>
+      <rect x="42" y="5" width="12" height="12" rx="2"/>
+      <rect x="60" y="5" width="12" height="12" rx="2"/>
+      <rect x="78" y="5" width="12" height="12" rx="2"/>
+    </g>
+  </g>
+
+  <!-- Clapperboard body -->
+  <g transform="translate(16,46)">
+    <rect x="0" y="0" width="96" height="64" rx="8" fill="#1b1b1b" stroke="#444"/>
+    <!-- IMDb badge -->
+    <g transform="translate(10,10)">
+      <rect x="0" y="0" width="36" height="16" rx="3" fill="url(#yellow)"/>
+      <text x="18" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#000">IMDb</text>
+    </g>
+    <!-- Rotten Tomatoes badge (tomato circle) -->
+    <g transform="translate(56,10)">
+      <rect x="0" y="0" width="36" height="16" rx="3" fill="url(#red)"/>
+      <text x="18" y="12" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff">🍅</text>
+    </g>
+    <!-- Star center -->
+    <g transform="translate(32,30)" fill="#ffd700">
+      <polygon points="16,0 19,10 30,10 21,16 24,26 16,20 8,26 11,16 2,10 13,10"/>
+    </g>
+  </g>
+
+  <!-- Small accent dots -->
+  <circle cx="18" cy="20" r="2" fill="#f5c518"/>
+  <circle cx="110" cy="108" r="2" fill="#fa320a"/>
+
+  <!-- Title -->
+  <text x="64" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#eaeaea" opacity="0.85">Ratings</text>
+</svg>
+

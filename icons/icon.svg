@@ -1,0 +1,33 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="64" cy="64" r="60" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  
+  <!-- Film reel design -->
+  <circle cx="64" cy="64" r="50" fill="#2d2d2d" stroke="#444" stroke-width="1"/>
+  
+  <!-- Film holes -->
+  <circle cx="64" cy="30" r="6" fill="#000"/>
+  <circle cx="64" cy="98" r="6" fill="#000"/>
+  <circle cx="30" cy="64" r="6" fill="#000"/>
+  <circle cx="98" cy="64" r="6" fill="#000"/>
+  <circle cx="42" cy="42" r="4" fill="#000"/>
+  <circle cx="86" cy="42" r="4" fill="#000"/>
+  <circle cx="42" cy="86" r="4" fill="#000"/>
+  <circle cx="86" cy="86" r="4" fill="#000"/>
+  
+  <!-- IMDb style rating -->
+  <rect x="35" y="48" width="25" height="12" rx="2" fill="#f5c518"/>
+  <text x="47.5" y="57" text-anchor="middle" fill="#000" font-family="Arial, sans-serif" font-size="8" font-weight="bold">IMDb</text>
+  
+  <!-- Rotten Tomatoes style rating -->
+  <rect x="68" y="48" width="25" height="12" rx="2" fill="#fa320a"/>
+  <text x="80.5" y="57" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="8" font-weight="bold">🍅</text>
+  
+  <!-- Star rating indicators -->
+  <g fill="#ffd700">
+    <polygon points="64,70 66,76 72,76 67,80 69,86 64,82 59,86 61,80 56,76 62,76" />
+  </g>
+  
+  <!-- Text -->
+  <text x="64" y="100" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="10" font-weight="bold">RATINGS</text>
+</svg>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix & Hotstar Ratings</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <div class="header">
+      <h1>Netflix & Hotstar Ratings</h1>
+      <p class="subtitle">Show IMDb & Rotten Tomatoes ratings</p>
+    </div>
+
+    <div class="main-content">
+      <!-- Extension Toggle -->
+      <div class="setting-group">
+        <div class="setting-item">
+          <label class="toggle-label">
+            <span class="label-text">Enable Ratings</span>
+            <div class="toggle-switch">
+              <input type="checkbox" id="enableExtension" checked>
+              <span class="slider"></span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- API Key Section -->
+      <div class="setting-group">
+        <div class="api-section">
+          <h3>OMDb API Configuration</h3>
+          <p class="api-description">
+            To fetch ratings, you need a free OMDb API key.
+            <a href="https://www.omdbapi.com/apikey.aspx" target="_blank" class="api-link">Get your free key here</a>
+          </p>
+          
+          <div class="input-group">
+            <input type="password" id="apiKey" placeholder="Enter your OMDb API key">
+            <button type="button" id="toggleApiKey" class="toggle-btn" title="Show/Hide API key">
+              👁️
+            </button>
+          </div>
+          
+          <button id="saveApiKey" class="save-btn">Save API Key</button>
+          
+          <div id="apiStatus" class="status-message"></div>
+        </div>
+      </div>
+
+
+      <!-- Current Tab Info -->
+      <div class="setting-group">
+        <div class="tab-info">
+          <h3>Current Tab</h3>
+          <p id="currentSite">Not on Netflix or Hotstar</p>
+          <button id="refreshRatings" class="refresh-btn" disabled>Refresh Ratings</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="links">
+        <a href="https://github.com/yourusername/netflix-hotstar-ratings" target="_blank">GitHub</a>
+      </div>
+      <p class="version">v1.0.0</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
