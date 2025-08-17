@@ -93,7 +93,7 @@ Make sure you're on the correct domains:
 **Check API Key Format:**
 - Should be 8 characters
 - Letters and numbers only
-- Example: `fb7fab91`
+- Example: `er7fab12`
 
 **Test API Key:**
 ```bash

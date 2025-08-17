@@ -3,7 +3,7 @@
 
 const CONFIG = {
   // OMDb API Configuration
-  OMDB_API_KEY: 'fb7fab91', // Get free key from https://www.omdbapi.com/apikey.aspx
+  OMDB_API_KEY: '', // Get free key from https://www.omdbapi.com/apikey.aspx
   
   // Extension Settings
   DEFAULT_ENABLED: true,
