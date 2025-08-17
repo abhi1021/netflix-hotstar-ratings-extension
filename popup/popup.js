@@ -171,19 +171,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   // Handle link clicks
-  document.getElementById('aboutLink').addEventListener('click', (e) => {
-    e.preventDefault();
-    chrome.tabs.create({
-      url: 'https://github.com/yourusername/netflix-hotstar-ratings#readme'
-    });
-  });
-
-  document.getElementById('supportLink').addEventListener('click', (e) => {
-    e.preventDefault();
-    chrome.tabs.create({
-      url: 'https://github.com/yourusername/netflix-hotstar-ratings/issues'
-    });
-  });
 
   // Listen for tab changes
   chrome.tabs.onActivated.addListener(updateCurrentTab);
