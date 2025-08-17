@@ -54,7 +54,7 @@ After setting up your API key:
 
 ## Example API Keys
 
-**Valid key format**: `fb7fab91` (8 characters, letters and numbers)
+**Valid key format**: `` (8 characters, letters and numbers)
 
 **Invalid formats**:
 - Too short: `abc123`

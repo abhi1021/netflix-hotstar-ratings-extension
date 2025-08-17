@@ -1,7 +1,7 @@
 class RatingService {
   constructor() {
     // OMDb API key from config
-    this.defaultApiKey = window.CONFIG?.OMDB_API_KEY || 'fb7fab91';
+    this.defaultApiKey = window.CONFIG?.OMDB_API_KEY || '';
     this.apiKey = this.defaultApiKey; // Start with default key
     this.baseUrl = window.CONFIG?.API_BASE_URL || 'https://www.omdbapi.com/';
     this.cache = new Map();
