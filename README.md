@@ -2,6 +2,10 @@
 
 Display IMDb and Rotten Tomatoes ratings directly on Netflix and Hotstar movie tiles.
 
+## DEMO
+Youtube: https://www.youtube.com/watch?v=5kU0MattMzQLinks
+
+
 ## Features
 
 - 🎬 IMDb and Rotten Tomatoes ratings on movie tiles
